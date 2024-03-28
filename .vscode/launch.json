@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "First Flavor",
+        "request": "launch",
+        "type": "dart",
+        "program": "lib/main_flavor_first.dart",
+        "args": ["--flavor", "flavor_first", "--target", "lib/main_flavor_first.dart" ]
+      },
+      {
+        "name": "Second Flavor",
+        "request": "launch",
+        "type": "dart",
+        "program": "lib/main_flavor_second.dart",
+        "args": ["--flavor", "flavor_second", "--target", "lib/main_flavor_second.dart" ]
+      },
+      {
+        "name": "Third Flavor",
+        "request": "launch",
+        "type": "dart",
+        "program": "lib/main_flavor_third.dart",
+        "args": ["--flavor", "flavor_third", "--target", "lib/main_flavor_third.dart" ]
+      }
+    ],
+    "compounds": []
+  }
+  
